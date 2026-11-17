@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Chauhan | Full-Stack & Python Developer</title>
+  <meta name="description" content="Portfolio of Yash Chauhan, Full-Stack & Python Developer based in Gurugram, Haryana. Featured projects: Gro-Hit, SnapDiet, and CertiHub."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <style>
+    html{scroll-behavior:smooth}
+    .will-reveal{opacity:0;transform:translateY(16px);filter:blur(2px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.61,.36,1),filter .7s ease;transition-delay:var(--delay,0s);will-change:transform,opacity}
+    .is-visible{opacity:1;transform:translateY(0);filter:blur(0)}
+    .card{transition:transform .25s ease,border-color .25s ease,background .25s ease;transform:translateY(0)}
+    .card:hover{transform:translateY(-4px)}
+    @media (prefers-reduced-motion: reduce){
+      *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+      .will-reveal{opacity:1!important;transform:none!important;filter:none!important}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/" title="Yash Chauhan"><img src="assets/profile.webp" alt="Yash Chauhan"></a>
+      <nav>
+        <a href="/index.html" class="active">Home</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Yash Chauhan</h1>
+        <p class="subtitle">Full-Stack & Python Developer • Gurugram, Haryana • cyashwow@gmail.com</p>
+        <p class="lead">I build reliable, full-stack web applications and AI-powered solutions. Experienced across Python, JavaScript, React, Node.js, and Google Gemini AI. Currently pursuing B.Tech at Dronacharya College of Engineering.</p>
+        <div class="cta">
+          <a class="btn primary" href="/projects.html">View Projects</a>
+          <a class="btn" href="assets/Yash-Chauhan-Resume.pdf" download="Yash-Chauhan-Resume.pdf">Download Resume</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/yash-chauhan-01aa91365?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/maiyashchauhan" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://x.com/maiyashchauhan?t=0v5bc9ZHIDfpamhLMGIFfQ&s=09" target="_blank" rel="noreferrer">X</a>
+          <a href="http://t.me/maiyashchauhan" target="_blank" rel="noreferrer">Telegram</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3 style="margin: 0 0 12px; font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Core Technologies</h3>
+        <ul class="tech">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Gemini AI</li>
+          <li>Streamlit</li>
+          <li>Git</li>
+          <li>HTML / CSS</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="highlight-projects container">
+      <h2>Highlighted Projects</h2>
+      <div class="grid">
+        <a class="card" href="https://github.com/maiyashchauhan/gro-hit" target="_blank" rel="noreferrer">
+          <div>
+            <h3>Gro-Hit</h3>
+            <p class="card-subtitle">Rural-First PWA & Village Empowerment Platform</p>
+            <p class="card-desc">Full-stack PWA with offline Gemini AI crop disease scanning, live Mandi commodity rates, DBT scheme verification, GramConnect transparency, and emergency SOS.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">PWA / Offline</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Gemini AI</span>
+            <span class="tag">i18n</span>
+          </div>
+        </a>
+
+        <a class="card" href="https://github.com/maiyashchauhan/SnapDiet" target="_blank" rel="noreferrer">
+          <div>
+            <h3>SnapDiet</h3>
+            <p class="card-subtitle">Intelligent Multimodal AI Nutrition Companion</p>
+            <p class="card-desc">Multimodal AI nutrition platform using Gemini Vision for photo-based calorie & macro estimation, personalized meal plans, and holistic wellness tracking.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Gemini Vision AI</span>
+            <span class="tag">SQLite</span>
+          </div>
+        </a>
+
+        <a class="card" href="https://github.com/maiyashchauhan/certihub" target="_blank" rel="noreferrer">
+          <div>
+            <h3>CertiHub</h3>
+            <p class="card-subtitle">Campus Certificate Generation & Live QR Verification</p>
+            <p class="card-desc">Full-stack credentialing system with live preview studio, 5 A4 landscape templates, batch generation from Excel/CSV, vector PDF export, and public QR verification.</p>
+          </div>
+          <div class="tags">
+            <span class="tag">React 19</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Express</span>
+            <span class="tag">QR Verification</span>
+          </div>
+        </a>
+      </div>
+      <div class="center">
+        <a class="btn" href="/projects.html">See all projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Yash Chauhan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>
+    (function(){
+      try{
+        if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){ return; }
+        const $ = (s, root=document) => root.querySelector(s);
+        const $ = (s, root=document) => Array.from(root.querySelectorAll(s));
+
+        // Hero staggered on-load reveal
+        const heroSeq = [
+          $('.hero .hero-text h1'),
+          $('.hero .hero-text .subtitle'),
+          $('.hero .hero-text .lead'),
+          $('.hero .hero-text .cta'),
+          $('.hero .hero-text .socials')
+        ].filter(Boolean);
+        const heroCard = $('.hero .hero-card');
+        const sequence = heroCard ? [...heroSeq, heroCard] : heroSeq;
+
+        sequence.forEach((el, i) => {
+          el.classList.add('will-reveal');
+          el.style.setProperty('--delay', (i * 0.08)+'s');
+        });
+        requestAnimationFrame(() => {
+          sequence.forEach(el => el.classList.add('is-visible'));
+        });
+
+        // IntersectionObserver for on-scroll reveals
+        const io = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if(entry.isIntersecting){
+              entry.target.classList.add('is-visible');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, {threshold:0.15, rootMargin:'0px 0px -10% 0px'});
+
+        const revealSelectors = [
+          '.highlight-projects h2',
+          '.highlight-projects .grid .card',
+          '.projects-list .card',
+          '.contact-grid > *'
+        ];
+        const revealEls = $(revealSelectors.join(', '));
+        revealEls.forEach((el, i) => {
+          el.classList.add('will-reveal');
+          el.style.setProperty('--delay', ((i % 6) * 0.06)+'s');
+          io.observe(el);
+        });
+      }catch(e){ /* no-op */ }
+    })();
+  </script>
+</body>
+</html>
