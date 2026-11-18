@@ -14,7 +14,6 @@ Welcome to the source repository for my personal developer portfolio website. Th
 - **Role:** Full-Stack & Python Developer
 - **Location:** Gurugram, Haryana, India
 - **Education:** B.Tech in Computer Science Engineering (AI & ML), Dronacharya College of Engineering *(Expected 2029)*
-- **Contact:** [cyashwow@gmail.com](mailto:cyashwow@gmail.com) | +91 8505997522
 - **Profiles:** [GitHub](https://github.com/maiyashchauhan) • [LinkedIn](https://www.linkedin.com/in/yash-chauhan-01aa91365) • [X (Twitter)](https://x.com/maiyashchauhan) • [Telegram](https://t.me/maiyashchauhan)
 
 ---
@@ -129,8 +128,6 @@ A formatted, single-page ATS-friendly PDF resume is available directly in this r
 
 ## 📬 Connect With Me
 
-- **Email:** [cyashwow@gmail.com](mailto:cyashwow@gmail.com)
-- **Phone:** [+91 8505997522](tel:+918505997522)
 - **GitHub:** [@maiyashchauhan](https://github.com/maiyashchauhan)
 - **LinkedIn:** [Yash Chauhan](https://www.linkedin.com/in/yash-chauhan-01aa91365)
 - **X (Twitter):** [@maiyashchauhan](https://x.com/maiyashchauhan)
