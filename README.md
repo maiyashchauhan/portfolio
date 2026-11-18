@@ -40,7 +40,7 @@ An AI-powered nutrition and wellness web application that simplifies healthy liv
 
 ---
 
-### 3. 🎓 [CertiHub](https://github.com/maiyashchauhan/certihub) — Campus Certificate Generation & Live QR Verification System
+### 3. 🎓 [CertiHub](https://github.com/maiyashchauhan/dce-certihub) — Campus Certificate Generation & Live QR Verification System
 A full-stack credentialing system built for colleges and events to design, manage, bulk-generate, and verify certificates.
 - **Live Preview Studio:** Real-time interactive studio with 5 professional A4 landscape templates.
 - **Bulk Automation:** Batch certificate generation from uploaded Excel (`.xlsx`) and `.csv` spreadsheets.
